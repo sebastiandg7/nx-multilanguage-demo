@@ -1,0 +1,8 @@
+rootProject.name = 'nx-multilanguage-demo'
+
+include 'my-lib'
+project(':my-lib').projectDir = file('libs/my-lib')
+
+include 'my-api'
+project(':my-api').projectDir = file('apps/my-api')
+

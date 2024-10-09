@@ -1,0 +1,9 @@
+{
+  "name": "my-web-ssr",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-web-ssr",
+  "projectType": "application",
+  "tags": ["scope:my-web-ssr", "type:app"],
+  "// targets": "to see all targets run: nx show project my-web-ssr --web",
+  "targets": {}
+}
